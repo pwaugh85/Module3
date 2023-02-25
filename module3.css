@@ -1,0 +1,97 @@
+
+/**************** Colors *******************/
+
+/** Cream 	#FFF8DC
+/** Tan		#DEB887
+/** Brown	#5E3128
+
+/** Light Green		#AFE1AF
+/** Dark Green		#355E3B
+
+
+
+/**************** Applies to entire page *******************/
+
+.body {
+font-size: 16px;
+color: #fff;
+font-family: ‘Inter’, sans-serif;
+}
+
+/**************** End Applies to entire page *******************/
+
+/**************** Header *********************/
+
+#header-nav {
+	background-color: #355E3B;
+	border-radius: 0;
+	border: 0;
+	box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-brand {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.navbar-brand h1 {
+	font-family: ‘Inter’, sans-serif;
+	color: #FFF8DC;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-left: 35px;
+}
+
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+
+/**************** End Header *********************/
+
+
+/************** Large Devices Only **************/
+
+
+
+
+
+
+
+/************** Medium Devices Only **************/
+
+
+
+
+
+
+
+
+/************** Small Devices Only **************/
+
+
+
+
+
+
+
+
+/************** Extra Small Devices Only **************/
+
+@media (min-width: 768px) {
+	.navbar-toggle {
+	display: none;
+}
