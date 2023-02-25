@@ -10,17 +10,13 @@
 
 
 
-/**************** Applies to entire page *******************/
-
-.body {
-	font-size: 16px;
-	font-family: 'Inter', sans-serif;
-}
-
-
-/**************** End Applies to entire page *******************/
 
 /**************** Header *********************/
+
+
+body {
+		background-color: #5E3128;
+}
 
 #header-nav {
 	background-color: #355E3B;
@@ -28,7 +24,6 @@
 	border-radius: 0;
 	border: 0;
 	margin-bottom: 0;
-	box-shadow: 0 4px 2px -2px gray;
 }
 
 .navbar-brand {
@@ -40,8 +35,8 @@
 	color: #FFF8DC;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	line-height: .75;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -74,7 +69,7 @@
   color: #5E3128;
   text-align: center;
   font-size: 1.8em;
-  background-color: #AFE1AF;
+  background-color: #FFF8DC;
 }
 
 #nav-list a:hover {
@@ -83,6 +78,11 @@
 
 
 /**************** End Header *********************/
+
+
+/**************** Body **************************/
+
+
 
 
 /************** Medium Devices Only **************/
