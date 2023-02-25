@@ -13,10 +13,10 @@
 /**************** Applies to entire page *******************/
 
 .body {
-font-size: 16px;
-color: #fff;
-font-family: ‘Inter’, sans-serif;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
 }
+
 
 /**************** End Applies to entire page *******************/
 
@@ -24,26 +24,27 @@ font-family: ‘Inter’, sans-serif;
 
 #header-nav {
 	background-color: #355E3B;
+	height: 90px;
 	border-radius: 0;
 	border: 0;
 	box-shadow: 0 4px 2px -2px gray;
 }
 
 .navbar-brand {
+	padding-top: 10px;
 }
 
 .navbar-brand h1 {
 	font-family: 'Inter', sans-serif;
 	color: #FFF8DC;
-	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
 	padding-left: 10px;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 .navbar-toggle {
@@ -57,32 +58,31 @@ font-family: ‘Inter’, sans-serif;
 	background-image: none;
 	border: 1px solid transparent;
 	border-radius: 4px;
+
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
 }
 
 
 /**************** End Header *********************/
 
 
-/************** Large Devices Only **************/
-
-
-
-
-
-
-
 /************** Medium Devices Only **************/
 
+ @media (min-width: 992px) {
 
-
-
-
+}
 
 
 
 /************** Small Devices Only **************/
 
+@media (min-width: 768px) and (max-width: 991px) {
 
+}
 
 
 
@@ -91,7 +91,20 @@ font-family: ‘Inter’, sans-serif;
 
 /************** Extra Small Devices Only **************/
 
-@media (min-width: 768px) {
+  /* Header */
+
+ @media (min-width: 767px) {
+
 	.navbar-toggle {
 	display: none;
+}
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { 
+    padding-top: 10px;
+  }
 }
