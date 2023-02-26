@@ -3,6 +3,7 @@
 
 /** Cream 	#FFF8DC
 /** Tan		#DEB887
+/** Dark Tan #e7cc96 
 /** Brown	#5E3128
 
 /** Light Green		#AFE1AF
@@ -15,7 +16,7 @@
 
 
 body {
-		background-color: #5E3128;
+		background-color: #e7cc96;
 }
 
 #header-nav {
@@ -83,6 +84,20 @@ body {
 /**************** Body **************************/
 
 
+.page-title {
+	color: #355E3B;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 24px;
+
+}
+
+.text-box {
+	margin: 0px 24px 24px 24px;
+	border: 2px solid #5E3128;
+	height: 1600px;
+	background-color: #FFF8DC;
+}
 
 
 /************** Medium Devices Only **************/
@@ -91,11 +106,10 @@ body {
 
 }
 
-
-
 /************** Small Devices Only **************/
 
 @media (min-width: 768px) and (max-width: 991px) {
+
 
 }
 
@@ -110,7 +124,7 @@ body {
 
  @media (min-width: 767px) {
 
-	.navbar-toggle {
+  .navbar-toggle {
 	display: none;
 }
 
@@ -122,4 +136,5 @@ body {
   .navbar-brand h1 { 
     padding-top: 10px;
   }
+
 }
