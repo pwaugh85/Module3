@@ -87,7 +87,7 @@ body {
 .page-title {
 	color: #5E3128;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 36px;
 	margin: 24px;
 
 }
@@ -105,9 +105,18 @@ body {
 	font-weight: bold;
 	color: #5E3128;
 	text-justify: left;
-	padding: 60px;
+	padding: 10px 60px 60px 60px;
 }
 
+
+.section-title {
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #5E3128;
+	text-align: center;
+	margin: 14px;
+}
 
 /************** Medium Devices Only **************/
 
