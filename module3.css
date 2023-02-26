@@ -20,7 +20,7 @@ body {
 }
 
 #header-nav {
-	background-color: #355E3B;
+	background-color: #5E3128;
 	height: 90px;
 	border-radius: 0;
 	border: 0;
@@ -70,11 +70,11 @@ body {
   color: #5E3128;
   text-align: center;
   font-size: 1.8em;
-  background-color: #FFF8DC;
+  background-color: #AFE1AF;
 }
 
 #nav-list a:hover {
-  background: #AFE1AF;
+  background: #FFF8DC;
 }
 
 
@@ -85,18 +85,27 @@ body {
 
 
 .page-title {
-	color: #355E3B;
+	color: #5E3128;
 	font-weight: bold;
 	font-size: 24px;
 	margin: 24px;
 
 }
 
-.text-box {
+.box {
 	margin: 0px 24px 24px 24px;
 	border: 2px solid #5E3128;
-	height: 1600px;
 	background-color: #FFF8DC;
+}
+
+
+.menu-text {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #5E3128;
+	text-justify: left;
+	padding: 60px;
 }
 
 
