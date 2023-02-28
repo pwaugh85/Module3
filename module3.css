@@ -27,21 +27,12 @@ body {
 	margin-bottom: 0;
 }
 
-.navbar-brand {
-	padding-top: 10px;
-}
-
 .navbar-brand h1 {
 	font-family: 'Inter', sans-serif;
 	color: #FFF8DC;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	line-height: .75;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 .navbar-toggle {
@@ -67,10 +58,13 @@ body {
 }
 
 #nav-list a {
+  font-family: 'Inter', sans-serif;
   color: #5E3128;
   text-align: center;
   font-size: 1.8em;
-  background-color: #AFE1AF;
+  font-weight: bold;
+  border-top: 1px solid black;
+  margin-top: -1px;
 }
 
 #nav-list a:hover {
@@ -78,11 +72,21 @@ body {
 }
 
 
+#collapsable-nav {
+  background-color: #AFE1AF;
+}
+
 /**************** End Header *********************/
 
 
 /**************** Body **************************/
 
+
+.box {
+	margin: 5px;
+	border: 2px solid #5E3128;
+	background-color: #FFF8DC;
+}
 
 .page-title {
 	color: #5E3128;
@@ -90,12 +94,6 @@ body {
 	font-size: 36px;
 	margin: 24px;
 
-}
-
-.box {
-	margin: 0px 24px 24px 24px;
-	border: 2px solid #5E3128;
-	background-color: #FFF8DC;
 }
 
 
@@ -117,23 +115,6 @@ body {
 	text-align: center;
 	margin: 14px;
 }
-
-/************** Medium Devices Only **************/
-
- @media (min-width: 992px) {
-
-}
-
-/************** Small Devices Only **************/
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-
-}
-
-
-
-
 
 
 /************** Extra Small Devices Only **************/
